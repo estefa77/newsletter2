@@ -2,15 +2,51 @@
 
 @font-face {
   font-family: "linea-arrows-10";
-  src:url("fonts/linea-arrows-10.eot");
-  src:url("fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"),
-    url("fonts/linea-arrows-10.woff") format("woff"),
-    url("fonts/linea-arrows-10.ttf") format("truetype"),
-    url("fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
+  src:url("../fonts/linea-arrows-10.eot");
+  src:url("../fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/linea-arrows-10.woff") format("woff"),
+    url("../fonts/linea-arrows-10.ttf") format("truetype"),
+    url("../fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: "Kessel 205 W00 Thin";
+  src: url("../fonts/Kessel 205 W00 Thin.eot");
+  /* IE9*/
+  src: url("../fonts/Kessel 205 W00 Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Kessel 205 W00 Thin.woff2") format("woff2"), url("../fonts/Kessel 205 W00 Thin.woff") format("woff"), url("../fonts/Kessel 205 W00 Thin.ttf") format("truetype"), url("../fonts/Kessel 205 W00 Thin.svg#Kessel 205 W00 Thin") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "Reklame Script W00 Bold";
+  src: url("../fonts/Reklame Script W00 Bold.eot");
+  /* IE9*/
+  src: url("../fonts/Reklame Script W00 Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Reklame Script W00 Bold.woff2") format("woff2"), url("../fonts/Reklame Script W00 Bold.woff") format("woff"), url("../fonts/Reklame Script W00 Bold.ttf") format("truetype"), url("../fonts/Reklame Script W00 Bold.svg#Reklame Script W00 Bold") format("svg");
+  /* iOS 4.1- */ }
+
+@font-face {
+  font-family: "HirukoStencil";
+  src: url("../fonts/HirukoStencil.eot"); /* IE9*/
+  src: url("../fonts/HirukoStencil.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/HirukoStencil.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/HirukoStencil.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/HirukoStencil.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/HirukoStencil.svg#HirukoStencil") format("svg"); /* iOS 4.1- */
+}
+
+
+@font-face {
+  font-family: "onlinewebfonts";
+  src: url("../fonts/onlinewebfonts.eot");
+  src: url("../fonts/onlinewebfonts.eot?#iefix") format("embedded-opentype"), url("../fonts/onlinewebfonts.woff2") format("woff2"), url("../fonts/onlinewebfonts.woff") format("woff"), url("../fonts/onlinewebfonts.ttf") format("truetype"), url("../fonts/onlinewebfonts.svg#onlinewebfonts") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+
+
+
 
 [data-icon]:before {
   font-family: "linea-arrows-10" !important;
